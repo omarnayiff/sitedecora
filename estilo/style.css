@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --cor0: #0FC2C0;
+    --cor1:#0CABA8;
+    --cor2: #008F8C;
+    --cor3: #015958;
+    --cor4: #023535;
+    
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color:rgb(228, 228, 228);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    
+    font-family: var(--fonte-destaque);
+    font-variant: small-caps;
+    font-size: 7vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav > a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-inline: 30px; 
+    transition-duration: 0.8s;
+    
+}
+
+a:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+section {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte-padrao);
+    font-size: 3vw;
+}
+
+section > h2 {
+    font-family: var(--fonte-destaque);
+    text-shadow: 1px 1px 0px black;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.imagem {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    text-align: center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.603);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.normal {
+    background-color: rgb(219, 245, 255);
+    text-align: center;
+}
+
+
+#img01 {
+    background-image: url('imagens/foto1.jpeg');
+    
+    
+}
+
+#img02 {
+    background-image: url('imagens/foto3.jpeg');
+    background-position: left center;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px black; }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+    }
+    
+
+    footer > a {
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+    }
