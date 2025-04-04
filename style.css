@@ -22,7 +22,7 @@
 }
 
 html, body {
-    min-height: 100vh;
+    min-height: 95vh;
     background-color:rgb(228, 228, 228);
     font-family: var(--fonte-padrao);
 }
@@ -80,6 +80,10 @@ section > p {
     padding-bottom: 2em;
 }
 
+p {
+    line-height: 40px;
+}
+
 section.imagem {
     background-color: rgb(77, 77, 77);
     color: white;
@@ -113,6 +117,7 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 0px black; }
 
+    
     footer {
         background-color: black;
         color: white;

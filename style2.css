@@ -22,7 +22,7 @@
 }
 
 html, body {
-    min-height: 100vh;
+    min-height: 95vh;
     background-color: rgb(189, 187, 187);
     font-family: var(--fonte-padrao);
 }
