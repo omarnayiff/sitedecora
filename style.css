@@ -117,10 +117,27 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 0px black; }
 
+    main {
+        position: relative;
+        height: 96vh;
+        background-size: cover;
+    }
+
     iframe#frame {
-        padding: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 550px;
+        width: 450px;
         
     }
+
+    
+
+
+    
+
 
     footer {
         background-color: black;
