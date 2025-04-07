@@ -117,7 +117,7 @@ section.imagem {
     color: white;
     text-align: center;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.603);
-    background-size: cover;
+    
     background-attachment: fixed;
 }
 
@@ -129,7 +129,7 @@ section.normal {
 
 #img01 {
     background-image: url('../imagens/foto1.jpeg');
-    background-size: cover;
+    
     
     
 }
