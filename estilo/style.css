@@ -44,7 +44,7 @@ header > h1 {
 
 nav {
     background-color: black;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     
 }
@@ -93,6 +93,11 @@ div > a {
     font-weight: bold;
 }
 
+div:hover {
+    background-color: white;
+    transition: 0.7s;
+}
+
 section > h2 {
     font-family: var(--fonte-destaque);
     text-shadow: 1px 1px 0px black;
@@ -121,13 +126,14 @@ section.normal {
 
 #img01 {
     background-image: url('../imagens/foto1.jpeg');
+    background-size: cover;
     
     
 }
 
 #img02 {
     background-image: url('../imagens/foto3.jpeg');
-    background-position: left center;
+    background-size: cover;
 }
 
 section.imagem > p {
@@ -148,6 +154,13 @@ section.imagem > p {
     section#mapa > h2 {
         text-align: center;
         padding: 10px;
+    }
+
+    img#social {
+        display: inline-block;
+        border-radius: 50%;
+        
+    
     }
 
     footer {
