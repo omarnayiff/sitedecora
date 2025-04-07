@@ -38,7 +38,6 @@ header > h1 {
     
     font-family: var(--fonte-destaque);
     font-variant: small-caps;
-    padding: 10px;
     font-size: 7vw;
 }
 
@@ -66,12 +65,14 @@ a:hover {
 }
 
 section {
+    margin: auto;
+    padding: 20px;
     padding-top: 20vh;
     padding-bottom: 20vh;
     line-height: 2em;
-    padding-left: 30px;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
+    border-radius: 2px 2px;
 }
 
 div {
@@ -99,24 +100,15 @@ div:hover {
     transition: 0.7s;
 }
 
-section > h2 {
-    font-family: var(--fonte-destaque);
-    text-shadow: 1px 1px 0px black;
-    padding: 10px;
-    font-size: 2em;
-}
-
-section > p {
-    padding-bottom: 2em;
-    text-align: center;
-}
 
 section.imagem {
-    background-color: rgb(77, 77, 77);
+    width: 90vw;
     color: white;
+    margin: auto;
     text-align: center;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.603);
     background-size: cover;
+
     background-attachment: fixed;
 }
 
@@ -125,56 +117,60 @@ section.normal {
     text-align: center;
 }
 
-
-
+section > h2 {
+    font-family: var(--fonte-destaque);
+    text-shadow: 1px 1px 0px black;
+    padding: 20px;
+    font-size: 2em;
+}
 
 #img01 {
     background-image: url('../imagens/foto1.jpeg');
-    background-size: cover;
-    
+    background-size: cover; 
     
 }
 
 #img02 {
-    background-image: url('../imagens/foto3.jpeg');
+    background-image: url('../imagens/foto3.jpeg') ;
     background-size: cover;
+    background-position: right center;
 }
 
 section.imagem > p {
-    display: inline-block;
+    
+    text-align: center;
+    margin: auto;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 0px black; }
 
-    section#mapa {
+section#mapa {
         background-color: rgb(255, 255, 255);
     }
 
-    section#mapa > iframe {
+section#mapa > iframe {
         width: 90vw;
         background-size: cover;
     }
 
-    section#mapa > h2 {
+section#mapa > h2 {
         text-align: center;
         padding: 10px;
     }
 
-    img#social {
+img#social {
         width: 70px;
         padding: 20px;
         display: inline-block;
-        border-radius: 50%;
-        
-        
+        border-radius: 50%;      
     }
 
-    a#so {
+a#so {
         background-color: rgb(219, 245, 255);
     }
     
 
-    footer {
+ footer {
         background-color: black;
         color: white;
         text-align: center;

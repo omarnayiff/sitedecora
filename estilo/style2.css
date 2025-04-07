@@ -67,6 +67,8 @@ a:hover {
 }
 
 section {
+    margin: auto;
+    text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
