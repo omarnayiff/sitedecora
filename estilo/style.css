@@ -105,7 +105,10 @@ section > h2 {
     font-size: 2em;
 }
 
-
+section > p {
+    padding-bottom: 2em;
+    text-align: center;
+}
 
 section.imagem {
     background-color: rgb(77, 77, 77);
