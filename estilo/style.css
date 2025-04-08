@@ -32,6 +32,8 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
+    
 }
 
 header > h1 {
@@ -45,7 +47,9 @@ header > h1 {
 nav {
     background-color: black;
     padding: 10px;
+    
     text-align: center;
+    
     
 }
 
@@ -54,6 +58,7 @@ nav > a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
+
     padding-inline: 30px; 
     transition-duration: 0.8s;
     
@@ -72,7 +77,7 @@ section {
     line-height: 2em;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    border-radius: 2px 2px;
+    border-radius: 20px;
 }
 
 div {
@@ -102,13 +107,12 @@ div:hover {
 
 
 section.imagem {
-    width: 90vw;
+    width: 88vw;
     color: white;
     margin: auto;
     text-align: center;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.603);
     background-size: cover;
-
     background-attachment: fixed;
 }
 
@@ -139,8 +143,6 @@ section > h2 {
 section.imagem > p {
     
     text-align: center;
-    margin: auto;
-    padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 0px black; }
 
