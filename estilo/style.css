@@ -124,14 +124,14 @@ section > h2 {
 #img01 {
     background-image: url('../imagens/foto1.jpeg');
     background-size: cover; 
-    background-position: right bottom;
+    background-position: center center;
     
 }
 
 #img02 {
     background-image: url('../imagens/foto3.jpeg') ;
     background-size: cover;
-    background-position: right bottom;
+    background-position: center center;
 }
 
 section.imagem > p {
@@ -159,6 +159,10 @@ img#social {
         padding: 20px;
         display: inline-block;
         border-radius: 50%;      
+    }
+
+    section#redes {
+        height: 175px;
     }
 
 a#so {

@@ -12,8 +12,7 @@
     
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', 'cursive';
-    
+    --fonte-destaque: 'Bebas Neue', 'cursive'; 
 }
 
 * {
@@ -24,31 +23,29 @@
 html, body {
     min-height: 100vh;
     background-color:rgb(228, 228, 228);
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte-padrao);  
 }
 
 header {
+    margin-bottom: 10px;
     background-color: black;
     color: white;
     text-align: center;
+    padding: 20px;
 }
 
 header > h1 {
     
     font-family: var(--fonte-destaque);
     font-variant: small-caps;
+    padding: 10px;
     font-size: 7vw;
-}
-
-header > p {
-    padding-bottom: 50px;
 }
 
 nav {
     background-color: black;
-    padding: 10px;
-    text-align: center;
-    
+    text-align: center; 
+    padding: 20px;
 }
 
 nav > a {
@@ -56,9 +53,8 @@ nav > a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
-    padding-inline: 30px; 
+    padding-inline: 20px; 
     transition-duration: 0.8s;
-    
 }
 
 a:hover {
@@ -67,26 +63,40 @@ a:hover {
 }
 
 section {
-    margin: auto;
+    
     text-align: center;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding: 20px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     line-height: 2em;
-    padding-left: 30px;
     font-family: var(--fonte-padrao);
-    font-size: 3vw;
+    font-size: 1.2em;
+    border-radius: 20px;
 }
 
-footer {
-    background-color: black;
-    color: white;
+
+section.normal {
+    background-color: rgb(219, 245, 255);
     text-align: center;
-    padding: 5px;
 }
 
-
-footer > a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
+section > h2 {
+    font-family: var(--fonte-destaque);
+    text-shadow: 1px 1px 0px black;
+    padding: 20px;
+    font-size: 2em;
 }
+
+ footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+    }
+    
+
+    footer > a {
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+    }
