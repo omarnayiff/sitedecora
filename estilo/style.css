@@ -12,8 +12,7 @@
     
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', 'cursive';
-    
+    --fonte-destaque: 'Bebas Neue', 'cursive'; 
 }
 
 * {
@@ -24,8 +23,7 @@
 html, body {
     min-height: 100vh;
     background-color:rgb(228, 228, 228);
-    font-family: var(--fonte-padrao);
-    
+    font-family: var(--fonte-padrao);  
 }
 
 header {
@@ -33,24 +31,19 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
-    
 }
 
 header > h1 {
     
     font-family: var(--fonte-destaque);
     font-variant: small-caps;
+    padding: 10px;
     font-size: 7vw;
 }
 
-
 nav {
     background-color: black;
-    padding: 10px;
-    
-    text-align: center;
-    
-    
+    text-align: center; 
 }
 
 nav > a {
@@ -58,10 +51,8 @@ nav > a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
-
-    padding-inline: 30px; 
+    padding-inline: 20px; 
     transition-duration: 0.8s;
-    
 }
 
 a:hover {
@@ -70,6 +61,7 @@ a:hover {
 }
 
 section {
+    height: 60vh;
     margin: auto;
     padding: 20px;
     padding-top: 20vh;
@@ -90,7 +82,7 @@ div {
     position: relative;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, 20%);
 }
 
 div > a {
@@ -131,13 +123,14 @@ section > h2 {
 #img01 {
     background-image: url('../imagens/foto1.jpeg');
     background-size: cover; 
+    background-position: right bottom;
     
 }
 
 #img02 {
     background-image: url('../imagens/foto3.jpeg') ;
     background-size: cover;
-    background-position: right center;
+    background-position: right bottom;
 }
 
 section.imagem > p {
