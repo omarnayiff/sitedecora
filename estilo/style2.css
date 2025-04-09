@@ -31,7 +31,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px;
+    
 }
 
 header > h1 {
@@ -45,7 +45,7 @@ header > h1 {
 nav {
     background-color: black;
     text-align: center; 
-    padding: 20px;
+    padding: 10px;
 }
 
 nav > a {
