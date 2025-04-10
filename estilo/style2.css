@@ -40,12 +40,14 @@ header > h1 {
     font-variant: small-caps;
     padding: 10px;
     font-size: 7vw;
+    
 }
 
 nav {
     background-color: black;
     text-align: center; 
-    padding: 10px;
+    
+    
 }
 
 nav > a {
@@ -55,6 +57,7 @@ nav > a {
     font-weight: bolder;
     padding-inline: 20px; 
     transition-duration: 0.8s;
+    
 }
 
 a:hover {
